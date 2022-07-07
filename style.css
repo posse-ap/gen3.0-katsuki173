@@ -1,0 +1,68 @@
+main {
+  width: 100%;
+  height: 3000px;
+}
+
+.header_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  background-color: white ;
+}
+.posse_logo {
+  margin-left: 40px;
+}
+.header_right {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  margin-right: 40px;
+}
+
+.hero_left {
+  position: relative;
+  top: 135px;
+  left: 70px;
+  width: 450px;
+  height: 280px;
+  text-align: left;
+  background-color: #EFF2F5;
+  border-radius: 24px;
+  z-index: 3;
+}
+.hero_left p {
+  font-weight: 700;
+  font-size: 16px;
+  color: hsl(204, 100%, 37%);
+  padding-top: 40px;
+  padding-bottom: -30px;
+  margin-left: 26px;
+}
+.hero_left h2 {
+  margin-top: -7px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: 0.05em;
+  margin-left: 23px;
+}
+.hero_right {
+  width: 976px;
+  height: 680px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.hero_img{
+  width: 100%;
+  border-radius: 80px 0px 0px 80px;
+}
+.section_top{
+  position: relative;
+}
+.scroll_down{
+  position: relative;
+  top: 380px;
+  left: 70px;
+
+}
